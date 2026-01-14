@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about-me.html">About Me</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Contact Me</h1>
+
+    <form>
+        <!-- Name -->
+        <label for="name">Name:</label><br>
+        <input type="text" required><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" required><br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label><br>
+        <textarea type="message" required></textarea><br><br>
+
+        <!-- Gender -->
+        <div>
+            <label>Gender:</label>
+
+            <label>
+                <input type="radio" name="gender" required>
+                Female
+            </label>
+
+            <label>
+                <input type="radio" name="gender">
+                Male
+            </label>
+        </div>
+
+        <!-- Interests -->
+        <div>
+            <label>Interests:</label>
+
+            <label>
+                <input type="checkbox" required>
+                AI
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Programming
+            </label>
+
+            <label >
+                <input type="checkbox">
+                Design
+            </label>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit">Send</button>
+    </form>
+
+    <p>
+        You can also email me at
+        <a href="mailto:neginasakhizada66@gmail.com">My Email</a>
+    </p>
+</main>
+
+<footer>
+    <p>Stay in touch!</p>
+</footer>
+
+</body>
+</html>
